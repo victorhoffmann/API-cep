@@ -1,0 +1,27 @@
+* {
+    font-size: 18px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#container form{
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+    align-items: center;
+    margin: 3vh;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#container label {
+    margin: 1vh;
+}
+
+#container input {
+    margin-bottom: 1vh;
+}
